@@ -1,0 +1,225 @@
+h2.hmt-page-title {
+    color: #5E24DD;
+    padding: 10px 20px;
+    font-size: 22px;
+}
+
+table.hmt-manage-views-table tr th,
+table.hmt-manage-views-table tr td {
+    border: 0px solid #000;
+    padding: 12px 10px;
+    text-align: left;
+}
+
+table.hmt-manage-views-table tr th label {
+    font-weight: 600;
+    text-align: left;
+}
+
+
+/* Alert Bar Started */
+
+.hmt-alert {
+    padding: 20px !important;
+    color: white;
+}
+
+.hmt-alert.success {
+    background-color: #6ABD6E;
+}
+
+.hmt-alert.error {
+    background-color: #F66358;
+}
+
+.hmt-alert.warning {
+    background-color: #FFAA2B;
+}
+
+.hmt-alert.info {
+    background-color: #47A8F5;
+}
+
+.hmt-closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hmt-closebtn:hover {
+    color: black;
+}
+
+
+/* Alert Bar Ended */
+
+
+/* Nav Tab */
+
+.nav-tab-wrapper {
+    border-bottom: 0px solid #5E24DD;
+}
+
+.nav-tab {
+    border: 0px;
+    border-top: 2px solid #5E24DD;
+    border: 1px solid #e5e5e5;
+    background-color: #FFF;
+    color: #5E24DD;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-bottom: 0;
+    margin-left: 0;
+}
+
+.nav-tab:hover {
+    background-color: #5E24DD;
+    color: #FFF;
+    border-bottom: 0px;
+}
+
+.nav-tab-active {
+    background-color: #5E24DD;
+    color: #FFF;
+}
+
+.button.hmt-button {
+    background-color: #5E24DD;
+    color: #FFF;
+    border-top: 2px solid #5E24DD;
+    border-radius: 5px;
+    padding: 6px 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button.hmt-button:hover {
+    border-top: 2px solid #5E24DD;
+    background-color: #FFF;
+    color: #5E24DD;
+}
+
+
+/* Common Admin Styles Started */
+
+.hmt_personal_wrap.hmt_personal_help {
+    background: #fff;
+    margin: 0 20px 20px 0;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+}
+
+.hmt_personal_wrap h1 {
+    font-size: 30px !important;
+    text-align: center;
+    border: none;
+    padding: 15px 10px !important;
+    background: #6029F6;
+    color: #fff;
+    margin: 15px !important;
+    line-height: 1;
+    /*margin: 12px 12px 20px 0 !important;*/
+    border-radius: 3px;
+}
+
+.hmt_personal_wrap .help-link {
+    padding: 16px;
+}
+
+.hmt-hlp-btn {
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 12px 16px;
+}
+
+.hmt-hlp-btn:hover {
+    color: #f1f1f1;
+}
+
+.hmt-btn-1 {
+    background-color: #49B158;
+}
+
+.hmt-btn-2 {
+    background-color: #A62F66;
+}
+
+.hmt-btn-3 {
+    background-color: #F25757;
+}
+
+.hmt_personal_wrap .hire-ad {
+    padding: 10px 20px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #ffffe0;
+    border: 1px solid #E6DB55;
+    margin: 30px auto;
+    width: 60%;
+}
+
+.hmt-admin-sidebar .postbox {
+    text-align: center;
+}
+
+.hmt-admin-sidebar .postbox h3.hndle {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+    border-bottom: 1px solid #ccd0d4;
+}
+
+
+/* Common Admin Styles Ended */
+
+
+/* Theme selector section */
+
+.hmt-theme-selector {
+    border: 0px solid #000;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+}
+
+.hmt-theme-item {
+    border: 0px solid #000;
+    min-height: 120px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.hmt-theme-item input[type='radio'] {
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.hmt-theme-item label {
+    margin-left: 5px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    min-height: 100px;
+    width: 90%;
+}
+
+.hmt-theme-item label img {
+    border: 0px solid #000;
+    display: inline-block;
+    min-height: 100px;
+    width: 100%;
+}

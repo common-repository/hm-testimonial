@@ -1,0 +1,159 @@
+.flex-viewport {
+    height: auto;
+}
+
+.flexslider ul,
+.flexslider .flex-direction-nav {
+    list-style-type: none;
+}
+
+.flexslider .slides>li {
+    height: auto;
+}
+
+.hmt-content-wrapper {
+    width: 95%;
+    min-height: 50px;
+    padding: 0px;
+}
+
+.hmt-content-wrapper.theme-1 {
+    display: grid;
+    grid-template-columns: 180px repeat(1, 1fr);
+}
+
+.hmt-img-container {
+    min-height: 70px;
+    width: 100%;
+    background-size: cover;
+}
+
+.hmt-img-container img {
+    height: 120px!important;
+    width: 120px;
+    float: right;
+    border-radius: 100px!important;
+}
+
+.hmt-content {
+    min-height: 70px;
+    background: url("https://cdn3.iconfinder.com/data/icons/iconic-1/32/right_quote-128.png") no-repeat scroll right 35px;
+    background-size: 64px;
+    padding-left: 30px;
+}
+
+.hmt-content-header {
+    margin-bottom: 10px;
+}
+
+.hmt-content-header>h4.testimonials-name {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.hmt-content-header>span {
+    color: #777;
+}
+
+.fa-star {
+    color: orange;
+}
+
+.fa-star-o {
+    color: orange;
+}
+
+.hmt-border {
+    height: 4px;
+    width: 90px;
+    margin-top: 10px;
+    background-color: #ddd;
+    border-radius: 4px;
+}
+
+.hmt-content p {
+    margin-bottom: 10px;
+}
+
+
+/* Theme-2 Started */
+
+.hmt-content-wrapper.theme-2 {
+    display: block;
+    margin: auto;
+}
+
+.hmt-content-wrapper.theme-2 .hmt-img-container {
+    width: 100%;
+    text-align: center;
+}
+
+.hmt-content-wrapper.theme-2 .hmt-img-container img {
+    margin: auto;
+    height: 120px;
+    width: 120px;
+    float: none;
+    border-radius: 80px;
+}
+
+.hmt-content-wrapper.theme-2 .hmt-content {
+    margin: auto;
+    background-image: none;
+    text-align: center;
+    width: 90%;
+    padding: 0;
+}
+
+.hmt-content-wrapper.theme-2 .hmt-content .hmt-content-header>h4.testimonials-name {
+    text-align: center;
+}
+
+.hmt-content-wrapper.theme-2 .hmt-content .hmt-border {
+    margin: 10px auto;
+}
+
+
+/* Theme-2 Ended */
+
+
+/*== Responsive ==*/
+
+@media only screen and (max-width: 767px) {
+    .flex-viewport {
+        height: auto;
+    }
+    .flexslider .slides>li {
+        height: auto;
+    }
+    .hmt-content-wrapper,
+    .hmt-content-wrapper.theme-1,
+    .hmt-content-wrapper.theme-2 {
+        display: block;
+    }
+    .hmt-img-container {
+        width: 100%;
+        text-align: center;
+    }
+    .hmt-img-container img {
+        margin: auto;
+        height: 120px;
+        width: 120px;
+        float: none;
+        border-radius: 80px;
+    }
+    .hmt-content {
+        margin-right: 20px;
+        background-image: none;
+        text-align: center;
+    }
+    .hmt-content-header>h4.testimonials-name {
+        text-align: center;
+    }
+    .hmt-border {
+        margin: 10px auto;
+    }
+}
